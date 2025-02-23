@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - {t: LSHIFT, h: sticky}
+  - LSHIFT
   - Z
   - X
   - C
@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - {t: function, h: sticky}
-  - Ctrl
-  - {t: ENTER, h: LEFT GUI}
-  - {t: ↹, h: lower}
+  - {t: ↹, h: Ctrl}
+  - {t: RSHIFT, h: LEFT GUI}
+  - {t: ENTER, h: lower}
   - {t: BACKSPACE, h: raise}
   - ␣
-  - {t: Alt, h: RSHIFT}
+  - {t: Alt, h: sticky}
   lower:
   - Esc
   - '!'
@@ -71,52 +71,52 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
-  - '`'
-  - '['
-  - '{'
-  - '}'
+  - AltGr+Q
   - ']'
+  - '}'
+  - ;
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT WIN
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - BACKSPACE
   - {t: ▽, type: trans}
-  - ':'
+  - {t: ▽, type: trans}
   raise:
   - ↹
-  - /
-  - '?'
+  - AltGr+Q
+  - AltGr+W
   - ↑
-  - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '-'
+  - +
+  - AltGr+\
+  - Sft+[
   - Home
   - PGUP
-  - '='
+  - AltGr+=
   - DELETE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+`
   - ←
   - ↓
   - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
+  - AltGr+]
+  - Sft+'
   - End
   - PGDN
-  - '|'
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
+  - NUBS
   - _
   - COPY
   - PASTE
-  - {t: ▽, type: trans}
+  - Sft+NUBS
   - PLAY PAUSE
   - PREVIOUS
   - ⏭️
